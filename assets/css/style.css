@@ -5,7 +5,7 @@
     --secondary_color: #F7F9FA;
     --link_hover_color: #2f2cff;
     --red_button: #F50000;
-    --lawgicaladda_color: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+    --brand_color: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
 }
 
 body{
@@ -25,7 +25,7 @@ body a{
 }
 /* nav bar  */
 .content_area .navbar_grand_parent{
-    background: var(--lawgicaladda_color);
+    background: var(--brand_color);
 }
 .content_area .navbar_parent{
     display: flex;
@@ -245,7 +245,7 @@ body a{
     flex-wrap: wrap;
 }
 .content_area .posts_parent .posts_child .post_text_content .category_span a{
-    background: var(--lawgicaladda_color);
+    background: var(--brand_color);
     font-size: 15px;
     color: #fff;
     padding: 5px 8px;
@@ -318,7 +318,7 @@ body a{
     flex-wrap: wrap;
 }
 .sing_post_main_parent .post_content .author_and_cates .category_parent a{
-    background: var(--lawgicaladda_color);
+    background: var(--brand_color);
     color: #fff;
     padding: 3px 6px;
 }
@@ -591,7 +591,7 @@ body a{
     gap: 5px;
 }
 .comments_template_inbuilt #respond form .form-submit #submit{
-    background: var(--lawgicaladda_color);
+    background: var(--brand_color);
     cursor: pointer;
     border: none;
     color: #fff;
